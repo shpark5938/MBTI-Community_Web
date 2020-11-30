@@ -19,8 +19,39 @@
 
 		<ul class="navbar__menu">
 			<li><a href="main.jsp">#Main</a></li>
-			<li><a href="mbtiBoard.jsp">#MBTI board</a></li>
-			<li><a href="">#Psychology</a></li>
+			<li>
+				<a href="">#MBTI board</a>
+				<div class="sub">
+					<ul class="list">
+						<li><a href="boardmbti.jsp?mbti=INTJ">INTJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=INTP">INTP</a></li>
+						<li><a href="boardmbti.jsp?mbti=ENTJ">ENTJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=ENTP">ENTP</a></li>
+					</ul>
+						
+					<ul class="list">
+						<li><a href="boardmbti.jsp?mbti=INFJ">INFJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=INFP">INFP</a></li>
+						<li><a href="boardmbti.jsp?mbti=ENFJ">ENFJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=ENFP">ENFP</a></li>
+					</ul>	
+					
+					<ul class="list">
+						<li><a href="boardmbti.jsp?mbti=ISTJ">ISTJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=ISFJ">ISFJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=ESTJ">ESTJ</a></li>
+						<li><a href="boardmbti.jsp?mbti=ESFJ">ESFJ</a></li>
+					</ul>	
+					
+					<ul class="list">
+						<li><a href="boardmbti.jsp?mbti=ISTP">ISTP</a></li>
+						<li><a href="boardmbti.jsp?mbti=ISFP">ISFP</a></li>
+						<li><a href="boardmbti.jsp?mbti=ESTP">ESTP</a></li>
+						<li><a href="boardmbti.jsp?mbti=ESFP">ESFP</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="psychology1.jsp">#Psychology</a></li>
 		</ul>
 
 		<ul class="navbar__user">
@@ -44,7 +75,8 @@
 		<img src="Analysttype.png" id=mainImage alt="img">
 		<script type="text/javascript">
         var myImage=document.getElementById("mainImage");
-        var imageArray=["Analysttype.png","diplomattype.png","explorertype.png","mangertype.png"];
+        var imageArray=["http://gayounghosting.dothome.co.kr/image/Analysttype1.jpg","http://gayounghosting.dothome.co.kr/image/diplomattype1.jpg",
+        	"http://gayounghosting.dothome.co.kr/image/explorertype1.jpg","http://gayounghosting.dothome.co.kr/image/mangertype1.jpg"];
         var imageIndex=0;
 
         function changeImage(){

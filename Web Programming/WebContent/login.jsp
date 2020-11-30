@@ -19,7 +19,7 @@
     position: absolute;
 }
 .logo{
-   margin: 3px auto;
+	margin: 3px auto;
     text-align: center;
     width: 160px ;
     cursor: pointer;
@@ -120,6 +120,30 @@ span {
                     <button class="submit">Login</button>
                 </form>
                 <form method="post" id="register" action="register.jsp" class="input-group">
+                    <input type="text" class="input-field" placeholder="User ID" required>
+                    <input type="email" class="input-field" placeholder="Your Email" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <button class="submit">REGISTER</button>
+                </form>
+                <form method="post" id="register" action="register.jsp" class="input-group">
+                	<center>
+                	<select name="mbti">
+                	<option value="">mbti유형을 선택해주세요</option>
+                	<option value="ISTJ">ISTJ</option>
+                	<option value="ISFJ">ISFJ</option>
+                	<option value="INFJ">INFJ</option>
+                	<option value="INTJ">INTJ</option>
+                	<option value="ISTP">ISTP</option>
+                	<option value="ISFP">ISFP</option>
+                	<option value="INFP">INFP</option>
+                	<option value="INTP">INTP</option>
+                	<option value="ESTP">ESTP</option>
+                	<option value="ESFP">ESFP</option>
+                	<option value="ENFP">ENTP</option>
+                	<option value="ESTJ">ESFJ</option>
+                	<option value="ENFJ">ENFJ</option>
+                	<option value="ENTJ">ENTJ</option>
+                	</select></center>
                     <input type="text" class="input-field" placeholder="User ID" required>
                     <input type="email" class="input-field" placeholder="Your Email" required>
                     <input type="password" class="input-field" placeholder="Enter Password" required>
